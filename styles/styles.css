@@ -1,19 +1,24 @@
+:root{
+    --background-color: darkblue;
+    --other-color: white;
+    --black-color: black;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: var(--other-color);
     display: block;
     padding: 20px;
     }
  h1 {
-            color: darkblue;
+            color: var(--background-color);
          }
 img {
         width: 150px;
         height: auto;
-        border: 1px solid black;
+        border: 1px solid var(--black-color);
         padding: 2px;
         box-shadow: 0 0 30px gray;
     }     
