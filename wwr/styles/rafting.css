@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1B4965;
+}
+
+.logo {
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+}
+
+article {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.client-img {
+    width: 100px;
+    float: right;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+/* Sections */
+.history, .adventure {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.adventure .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.adventure img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #1B4965;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 5px;
+}
