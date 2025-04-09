@@ -193,6 +193,11 @@ footer p {
     border: none;
     margin-top: 1rem;
 }
+.contact-info img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
 
 /* Team Section */
 .team {
